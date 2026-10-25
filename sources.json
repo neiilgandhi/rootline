@@ -1,6 +1,6 @@
 {
   "version": "2026-10-24",
-  "note": "Paraphrased fact cards for grounded answers. 'official' = U.S. government source. Cite by id. Facts were checked against each source on 2026-10-24; re-check before relying on them after the hackathon.",
+  "note": "Paraphrased fact cards for grounded answers. 'official' = U.S. government source. Cite by id. Facts were checked against each source on 2026-10-24, and every link was re-tested in a browser on 2026-10-25.",
   "sources": [
     {
       "id": "S1",
@@ -48,7 +48,7 @@
       "title": "I was an authorized user on my deceased relative's credit card account. Am I liable to repay the debt?",
       "publisher": "CFPB (Ask CFPB)",
       "official": true,
-      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-co-signer-en-1485/",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/i-was-an-authorized-user-on-my-deceased-relatives-credit-card-account-am-i-liable-to-repay-the-debt-en-1485/",
       "facts": [
         "Being an authorized user generally does not make you legally responsible for paying the account's debt.",
         "Credit card issuers usually report an authorized user's status to the credit bureaus.",
@@ -102,7 +102,7 @@
       "title": "Individual Taxpayer Identification Number (ITIN)",
       "publisher": "Internal Revenue Service (IRS)",
       "official": true,
-      "url": "https://www.irs.gov/individuals/individual-taxpayer-identification-number",
+      "url": "https://www.irs.gov/tin/itin/individual-taxpayer-identification-number-itin",
       "facts": [
         "An ITIN is a 9-digit number the IRS issues for federal tax purposes to people who need a taxpayer ID but aren't eligible for a Social Security number.",
         "An ITIN does not authorize work in the U.S., does not provide or change immigration status, and does not qualify someone for Social Security benefits or the Earned Income Tax Credit.",
@@ -177,8 +177,8 @@
       "title": "Reminder: Proof of Financial Support Needed to Issue Form I-20",
       "publisher": "Study in the States (U.S. Department of Homeland Security)",
       "official": true,
-      "url": "https://studyinthestates.dhs.gov/2016/12/reminder-proof-of-financial-support-needed-to-issue-form-i-20",
-      "secondary_url": "https://studyinthestates.dhs.gov/2017/04/questions-from-designated-school-officials-what-financial-information-should-be-included-on-the-form-i-20",
+      "url": "https://studyinthestates.dhs.gov/2016/12/reminder-proof-financial-support-needed-issue-form-i-20",
+      "secondary_url": "https://studyinthestates.dhs.gov/2017/04/questions-designated-school-officials-what-financial-information-should-be-included-form-i",
       "facts": [
         "Prospective F-1 students must show they have the financial resources to live and study in the U.S.",
         "A school official cannot issue the Form I-20 without proper proof of financial support, and students need the I-20 for the steps to study in F-1 status.",
@@ -194,17 +194,17 @@
     {
       "id": "S11",
       "topic": "Federal student aid eligibility",
-      "title": "Non-U.S. Citizens (Financial Aid Toolkit) / Eligible noncitizen definition",
-      "publisher": "U.S. Department of Education, Federal Student Aid; Eastern Kentucky University",
+      "title": "Eligibility for Non-U.S. Citizens",
+      "publisher": "U.S. Department of Education, Federal Student Aid",
       "official": true,
-      "url": "https://awsfinancialaidtoolkit.ed.gov/tk/outreach/target/noncitizens.jsp",
-      "secondary_url": "https://www.eku.edu/bigecentral/eligible-noncitizen/",
+      "url": "https://studentaid.gov/understand-aid/eligibility/requirements/non-us-citizens",
+      "secondary_url": "https://financialaidtoolkit.ed.gov/tk/outreach/target/noncitizens",
       "facts": [
         "Students who are neither U.S. citizens nor 'eligible noncitizens' are not eligible for federal student aid.",
         "Eligible noncitizens generally include green card holders and people with certain statuses such as refugee or asylee.",
-        "Students in the U.S. on F-1/F-2 or J-1/J-2 visas are not eligible noncitizens for federal student aid.",
+        "Students in the U.S. on an F-1, F-2 or M-1 student visa, or a J-1 or J-2 exchange visitor visa, are not eligible noncitizens for federal student aid.",
         "A parent's immigration status is not considered when deciding whether the student is eligible.",
-        "StudentAid.gov/noncitizen lists the categories that qualify."
+        "StudentAid.gov lists the noncitizen categories that qualify and other types of aid to explore."
       ],
       "caveat": "Some states and colleges offer their own aid to students who don't qualify for federal aid; rules vary widely. Tell users to check with the school's financial aid office.",
       "use_for": [
@@ -219,7 +219,7 @@
       "publisher": "Federal Trade Commission (FTC)",
       "official": true,
       "url": "https://consumer.ftc.gov/consumer-alerts/2023/05/avoiding-scams-target-immigrants",
-      "secondary_url": "https://consumer.ftc.gov/immigration",
+      "secondary_url": "https://consumer.ftc.gov/features/scams-against-immigrants",
       "facts": [
         "In the U.S., notarios (notaries) are not licensed attorneys and cannot give legal advice on immigration.",
         "Official immigration forms from USCIS are free; anyone charging for blank forms is a scammer.",
@@ -235,10 +235,10 @@
     {
       "id": "S13",
       "topic": "Sending money abroad",
-      "title": "Making a difference in the lives of immigrants and others who send money abroad",
+      "title": "Problems sending money to another country?",
       "publisher": "CFPB",
       "official": true,
-      "url": "https://www.consumerfinance.gov/about-us/blog/making-a-difference-in-the-lives-of-immigrants-and-others-who-send-money-abroad",
+      "url": "https://www.consumerfinance.gov/consumer-tools/sending-money/",
       "secondary_url": "https://files.consumerfinance.gov/f/documents/cfpb_helping-consumers-understand-remittance-transfers.pdf",
       "facts": [
         "Money transfer providers must generally disclose the exchange rate, fees, the amount that will arrive, and the date it will be available, both before and after you pay.",
@@ -273,7 +273,7 @@
       "title": "Immigrants facing unique financial challenges",
       "publisher": "CFPB",
       "official": true,
-      "url": "https://www.consumerfinance.gov/about-us/blog/immigrants-facing-unique-financial-challenges",
+      "url": "https://www.consumerfinance.gov/archive/blog/immigrants-facing-unique-financial-challenges/",
       "facts": [
         "People with limited English can struggle to get understandable information about financial products, compare costs, and correct errors.",
         "Many rely on friends and family, often their minor children, to interpret financial transactions, which raises the risk of poor decisions.",
@@ -308,20 +308,28 @@
     {
       "id": "S17",
       "topic": "F-1 work rules",
-      "title": "Working in the United States; Learn about the types of practical training for F-1 students",
+      "title": "Working in the United States; Curricular Practical Training (CPT); Types of practical training for F-1 students",
       "publisher": "Study in the States (U.S. Department of Homeland Security)",
       "official": true,
-      "url": "https://studyinthestates.dhs.gov/students/working",
+      "url": "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
       "facts": [
         "F-1 students who work on campus may not work more than 20 hours per week while school is in session.",
         "Off-campus work based on economic hardship requires a completed academic year, approval from the school official and a Form I-765 filed with USCIS, and the student can't start while the form is pending.",
-        "F-1 students may also do practical training that directly relates to their program of study: Curricular Practical Training (CPT) before the program ends, and Optional Practical Training (OPT), which usually lasts up to 12 months."
+        "Curricular Practical Training (CPT) must be an integral part of the school's established curriculum, which ICE describes as a required part of the degree or program, not a supplemental experience.",
+        "The school's designated official (DSO) authorizes CPT, generally after at least one full academic year of full-time study.",
+        "One year or more of full-time CPT eliminates a student's OPT eligibility at the same education level.",
+        "Optional Practical Training (OPT) is training that directly relates to the student's program of study and usually lasts up to 12 months.",
+        "Pre-completion OPT happens before the program end date, and any time used is subtracted from the post-completion OPT limit."
       ],
       "use_for": [
         "timeline",
         "qa"
       ],
-      "secondary_url": "https://studyinthestates.dhs.gov/2021/05/learn-about-the-types-of-practical-training-for-f-1-students"
+      "secondary_url": "https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/f-1-curricular-practical-training-cpt",
+      "more_urls": [
+        "https://www.ice.gov/doclib/sevis/pdf/CurricularPracticalTraining.pdf",
+        "https://studyinthestates.dhs.gov/2021/05/learn-about-the-types-of-practical-training-for-f-1-students"
+      ]
     },
     {
       "id": "S18",
@@ -365,13 +373,13 @@
     {
       "id": "S20",
       "topic": "Free and low-cost immigration legal help",
-      "title": "Recognized Organizations and Accredited Representatives Roster; List of Pro Bono Legal Service Providers",
+      "title": "Recognition & Accreditation (R&A) Roster Reports; List of Pro Bono Legal Service Providers",
       "publisher": "U.S. Department of Justice, Executive Office for Immigration Review (EOIR)",
       "official": true,
-      "url": "https://www.justice.gov/eoir/recognized-organizations-and-accredited-representatives-roster-state-and-city",
+      "url": "https://www.justice.gov/eoir/recognition-accreditation-roster-reports",
       "secondary_url": "https://www.justice.gov/eoir/list-pro-bono-legal-service-providers",
       "facts": [
-        "The Justice Department keeps a roster of recognized organizations and accredited representatives that you can search by state.",
+        "The Justice Department publishes rosters of recognized organizations and accredited representatives, including a list by state.",
         "The Justice Department also publishes a list of free (pro bono) legal service providers for people in immigration court proceedings."
       ],
       "use_for": [
