@@ -1,0 +1,266 @@
+{
+  "version": "2026-10-24",
+  "note": "Paraphrased fact cards for grounded answers. 'official' = U.S. government source. Cite by id. Facts were checked against each source on 2026-10-24; re-check before relying on them after the hackathon.",
+  "sources": [
+    {
+      "id": "S1",
+      "topic": "Building credit from zero",
+      "title": "Building credit from scratch (checklist)",
+      "publisher": "Consumer Financial Protection Bureau (CFPB)",
+      "official": true,
+      "url": "https://files.consumerfinance.gov/f/documents/201612_cfpb_credit_invisible_checklist.PDF",
+      "facts": [
+        "A secured credit card is applied for like a regular card, but you put down a deposit and the credit line generally matches that deposit.",
+        "You can generally build credit with a secured card, but you should ask the issuer whether it reports to the credit reporting companies.",
+        "Some secured cards let you move to a traditional (unsecured) card later.",
+        "Credit builder loans, usually offered by credit unions, are another way to start a credit history.",
+        "Paying credit card bills and loan payments on time is one of the most important steps in building good credit.",
+        "Using too much of your available credit can hurt scores, so stay well below your credit limit.",
+        "Opening too many credit accounts in a short time may lower credit scores.",
+        "You are entitled to request your credit report from each of the three nationwide credit reporting companies."
+      ],
+      "use_for": ["plan", "qa"]
+    },
+    {
+      "id": "S2",
+      "topic": "Secured cards and credit invisibility",
+      "title": "Who are the credit invisible?",
+      "publisher": "CFPB (archived blog)",
+      "official": true,
+      "url": "https://www.consumerfinance.gov/archive/blog/who-are-credit-invisible/",
+      "facts": [
+        "A secured card deposit can range from about $50 to $300 depending on the card company.",
+        "Banks typically report secured card activity to the credit reporting companies, but you should confirm with the issuer.",
+        "Many secured cards include a 'graduation' feature that moves you to a traditional card after a pattern of on-time payments."
+      ],
+      "caveat": "Archived CFPB page; deposit ranges may have changed.",
+      "use_for": ["plan", "qa"]
+    },
+    {
+      "id": "S3",
+      "topic": "Authorized users: liability and reporting",
+      "title": "I was an authorized user on my deceased relative's credit card account. Am I liable to repay the debt?",
+      "publisher": "CFPB (Ask CFPB)",
+      "official": true,
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-co-signer-en-1485/",
+      "facts": [
+        "Being an authorized user generally does not make you legally responsible for paying the account's debt.",
+        "Credit card issuers usually report an authorized user's status to the credit bureaus.",
+        "You can get a free copy of your credit report from each of the three nationwide bureaus at annualcreditreport.com."
+      ],
+      "use_for": ["kids", "qa"]
+    },
+    {
+      "id": "S4",
+      "topic": "Authorized users: how history transfers",
+      "title": "Credit Where None Is Due? Authorized User Account Status and 'Piggybacking Credit'",
+      "publisher": "Federal Reserve Board (research paper, 2010)",
+      "official": true,
+      "url": "https://www.federalreserve.gov/pubs/feds/2010/201023/",
+      "facts": [
+        "Because of how authorized user accounts are reported, the account's full history can show up on the authorized user's credit record, no matter when they were added.",
+        "Adding someone as an authorized user has been used to help young people build a credit history and learn to manage credit.",
+        "Paying a stranger to be added to their account ('piggybacking') is a separate practice that has raised concerns."
+      ],
+      "caveat": "Research paper from 2010; scoring models may treat authorized users differently today.",
+      "use_for": ["kids", "qa"]
+    },
+    {
+      "id": "S5",
+      "topic": "Authorized users: minors and issuer rules",
+      "title": "Which Credit Cards Help Authorized Users Build Credit?",
+      "publisher": "NerdWallet",
+      "official": false,
+      "url": "https://www.nerdwallet.com/credit-cards/learn/credit-card-authorized-users-build-credit",
+      "facts": [
+        "Issuers commonly report authorized user accounts, but they are not required to.",
+        "Depending on their policies, credit bureaus may leave an authorized user account off the report if it has negative information or if the user is under a certain age.",
+        "At least one major issuer (Chase) says it does not report authorized user history for minors.",
+        "If the account isn't showing up on the authorized user's report, call the issuer and ask."
+      ],
+      "caveat": "Not a government source. Issuer policies change; always tell users to confirm with their card issuer.",
+      "use_for": ["kids", "qa"]
+    },
+    {
+      "id": "S6",
+      "topic": "ITIN",
+      "title": "Individual Taxpayer Identification Number (ITIN)",
+      "publisher": "Internal Revenue Service (IRS)",
+      "official": true,
+      "url": "https://www.irs.gov/individuals/individual-taxpayer-identification-number",
+      "facts": [
+        "An ITIN is a 9-digit number the IRS issues for federal tax purposes to people who need a taxpayer ID but aren't eligible for a Social Security number.",
+        "An ITIN does not authorize work in the U.S., does not provide or change immigration status, and does not qualify someone for Social Security benefits or the Earned Income Tax Credit.",
+        "An ITIN is not meant to serve as identification outside the federal tax system.",
+        "You may need an ITIN if you must file a federal tax return, or if you can be claimed as a spouse or dependent for a tax benefit."
+      ],
+      "use_for": ["setup", "plan", "qa"]
+    },
+    {
+      "id": "S7",
+      "topic": "SSN for noncitizens",
+      "title": "If I am not a U.S. citizen, can I get a Social Security number? / Social Security Numbers for Noncitizens",
+      "publisher": "Social Security Administration (SSA)",
+      "official": true,
+      "url": "https://www.ssa.gov/faqs/en/questions/KA-02178.html",
+      "facts": [
+        "In general, only noncitizens with permission to work from the Department of Homeland Security can get a Social Security number.",
+        "Noncitizens who are not authorized to work can get an SSN only in limited cases; details are in SSA's 'Social Security Numbers for Noncitizens' publication (ssa.gov/pubs/EN-05-10096.pdf)."
+      ],
+      "use_for": ["setup", "qa"]
+    },
+    {
+      "id": "S8",
+      "topic": "H-4 dependent children and turning 21",
+      "title": "H-4 Dependents",
+      "publisher": "Temple University International Student & Scholar Services; Utah State University HR",
+      "official": false,
+      "url": "https://global.temple.edu/isss/faculty-staff-researchers/international-employees/h-1b-specialty-occupation-workers/h-4-dependents",
+      "secondary_url": "https://www.usu.edu/hr/resources/h1b/h4-dependents",
+      "facts": [
+        "H-4 status is available to the spouse and unmarried children under 21 of an H-1B worker, and it depends on the H-1B worker keeping valid status.",
+        "When an H-4 child turns 21, they are no longer considered a 'child' for this purpose and are no longer eligible for H-4 status.",
+        "H-4 children are not eligible to apply for work authorization (an EAD); only certain H-4 spouses can.",
+        "H-4 dependents may study in the U.S.",
+        "Dependents approaching 21 should talk to an immigration professional about other status options."
+      ],
+      "caveat": "University international offices, not USCIS. The app must FLAG this milestone and refer to an immigration attorney or school international office. Never give immigration advice.",
+      "use_for": ["timeline", "qa"]
+    },
+    {
+      "id": "S9",
+      "topic": "Aging out: other options exist",
+      "title": "Growing Concern Over H-4 Dependent Children",
+      "publisher": "EIG Law (immigration law firm)",
+      "official": false,
+      "url": "https://eiglaw.com/growing-concern-over-h-4-dependent-children/",
+      "facts": [
+        "Long employment-based green card backlogs put many H-4 children at risk of aging out at 21.",
+        "In some cases the Child Status Protection Act (CSPA) may let a dependent keep 'child' classification for a time after turning 21.",
+        "Changing to F-1 student status while attending college is another path some H-4 children use."
+      ],
+      "caveat": "Law firm blog. Use only to say 'options exist and depend on your case, so talk to an immigration attorney early.' Do not explain eligibility.",
+      "use_for": ["timeline", "qa"]
+    },
+    {
+      "id": "S10",
+      "topic": "F-1: proof of funds",
+      "title": "Reminder: Proof of Financial Support Needed to Issue Form I-20",
+      "publisher": "Study in the States (U.S. Department of Homeland Security)",
+      "official": true,
+      "url": "https://studyinthestates.dhs.gov/2016/12/reminder-proof-of-financial-support-needed-to-issue-form-i-20",
+      "secondary_url": "https://studyinthestates.dhs.gov/2017/04/questions-from-designated-school-officials-what-financial-information-should-be-included-on-the-form-i-20",
+      "facts": [
+        "Prospective F-1 students must show they have the financial resources to live and study in the U.S.",
+        "A school official cannot issue the Form I-20 without proper proof of financial support, and students need the I-20 for the steps to study in F-1 status.",
+        "The funds shown should cover up to one year or the length of the program, whichever is shorter.",
+        "The cost information on the I-20 covers tuition, school fees, and living expenses."
+      ],
+      "caveat": "DHS marks these blog posts as possibly outdated. Schools set their own cost estimates and document rules.",
+      "use_for": ["timeline", "qa"]
+    },
+    {
+      "id": "S11",
+      "topic": "Federal student aid eligibility",
+      "title": "Non-U.S. Citizens (Financial Aid Toolkit) / Eligible noncitizen definition",
+      "publisher": "U.S. Department of Education, Federal Student Aid; Eastern Kentucky University",
+      "official": true,
+      "url": "https://awsfinancialaidtoolkit.ed.gov/tk/outreach/target/noncitizens.jsp",
+      "secondary_url": "https://www.eku.edu/bigecentral/eligible-noncitizen/",
+      "facts": [
+        "Students who are neither U.S. citizens nor 'eligible noncitizens' are not eligible for federal student aid.",
+        "Eligible noncitizens generally include green card holders and people with certain statuses such as refugee or asylee.",
+        "Students in the U.S. on F-1/F-2 or J-1/J-2 visas are not eligible noncitizens for federal student aid.",
+        "A parent's immigration status is not considered when deciding whether the student is eligible.",
+        "StudentAid.gov/noncitizen lists the categories that qualify."
+      ],
+      "caveat": "Some states and colleges offer their own aid to students who don't qualify for federal aid; rules vary widely. Tell users to check with the school's financial aid office.",
+      "use_for": ["timeline", "qa"]
+    },
+    {
+      "id": "S12",
+      "topic": "Scams targeting immigrants",
+      "title": "Avoiding scams that target immigrants",
+      "publisher": "Federal Trade Commission (FTC)",
+      "official": true,
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/05/avoiding-scams-target-immigrants",
+      "secondary_url": "https://consumer.ftc.gov/immigration",
+      "facts": [
+        "In the U.S., notarios (notaries) are not licensed attorneys and cannot give legal advice on immigration.",
+        "Official immigration forms from USCIS are free; anyone charging for blank forms is a scammer.",
+        "Never sign blank forms or forms with information that isn't true.",
+        "Nobody can guarantee a green card or citizenship.",
+        "Get immigration information from websites ending in .gov.",
+        "Report immigration scams at ReportFraud.ftc.gov (Spanish: ReporteFraude.ftc.gov)."
+      ],
+      "use_for": ["qa"]
+    },
+    {
+      "id": "S13",
+      "topic": "Sending money abroad",
+      "title": "Making a difference in the lives of immigrants and others who send money abroad",
+      "publisher": "CFPB",
+      "official": true,
+      "url": "https://www.consumerfinance.gov/about-us/blog/making-a-difference-in-the-lives-of-immigrants-and-others-who-send-money-abroad",
+      "secondary_url": "https://files.consumerfinance.gov/f/documents/cfpb_helping-consumers-understand-remittance-transfers.pdf",
+      "facts": [
+        "Money transfer providers must generally disclose the exchange rate, fees, the amount that will arrive, and the date it will be available, both before and after you pay.",
+        "You typically have at least 30 minutes after paying to cancel an international transfer and get your money back.",
+        "If you report a problem within 180 days, the provider must generally investigate and correct errors."
+      ],
+      "use_for": ["qa"]
+    },
+    {
+      "id": "S14",
+      "topic": "Finding trustworthy human help with money",
+      "title": "Choosing a Credit Counselor",
+      "publisher": "FTC",
+      "official": true,
+      "url": "https://www.bulkorder.ftc.gov/system/files/publications/pdf-0040-fiscal-fitness-choosing-a-credit-counselor.pdf",
+      "facts": [
+        "Most reputable credit counselors are nonprofit and offer help in person, online, or by phone.",
+        "Universities, credit unions, military bases, and Cooperative Extension offices often run nonprofit credit counseling programs.",
+        "Calling itself 'nonprofit' doesn't guarantee a counselor is free, affordable, or legitimate.",
+        "Check a counseling organization with your state Attorney General and local consumer protection agency."
+      ],
+      "use_for": ["qa", "referral"]
+    },
+    {
+      "id": "S15",
+      "topic": "Why immigrant families need this",
+      "title": "Immigrants facing unique financial challenges",
+      "publisher": "CFPB",
+      "official": true,
+      "url": "https://www.consumerfinance.gov/about-us/blog/immigrants-facing-unique-financial-challenges",
+      "facts": [
+        "People with limited English can struggle to get understandable information about financial products, compare costs, and correct errors.",
+        "Many rely on friends and family, often their minor children, to interpret financial transactions, which raises the risk of poor decisions.",
+        "Language barriers can put people at higher risk of scams that target immigrants.",
+        "CFPB publishes free 'Newcomer's Guides to Managing Money' in several languages."
+      ],
+      "use_for": ["pitch", "qa"]
+    }
+  ],
+  "referrals": [
+    {
+      "when": "Any immigration, visa, status, or aging-out question",
+      "who": "A licensed immigration attorney or a DOJ-accredited representative; for students, the school's international student office (Designated School Official)",
+      "source": "S12"
+    },
+    {
+      "when": "Debt, budgeting, or credit problems beyond the basics",
+      "who": "A nonprofit credit counselor (check them with your state Attorney General first)",
+      "source": "S14"
+    },
+    {
+      "when": "College costs and aid eligibility",
+      "who": "The college's financial aid office",
+      "source": "S11"
+    },
+    {
+      "when": "Whether a specific card reports authorized users or minors",
+      "who": "The card issuer's customer service",
+      "source": "S5"
+    }
+  ]
+}
