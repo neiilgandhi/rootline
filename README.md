@@ -37,7 +37,8 @@ Existing tools help **one person get a credit card**. Nothing helps **a family s
 - **No immigration advice.** Visa and status questions go to a licensed immigration attorney. Rootline covers only the money side.
 - **No product pushing.** It never recommends a specific bank or card, including the challenge sponsor's.
 - **No AI math.** The plan, timeline, savings tracker and safety fund calculator are plain rules in code. The same family always gets the same answer, and numbers are never made up.
-- **Savings amounts never leave the browser.**
+- **Clear about privacy.** Answers are saved only in the browser, and savings amounts are never sent anywhere. On this public GitHub Pages site, nothing you type leaves your browser. In the Claude version, Check advice and Ask send the message (and, for Ask, a short family summary) to Claude, and the page says so.
+- **AI answers are labeled.** Every live answer says it was written by Claude from our sources and asks you to open the source link before acting.
 
 ## How it works
 
@@ -54,7 +55,8 @@ Open `index.html` in any web browser. That's it.
 
 ## Limits
 
-- Rootline is a guide, not a lawyer or financial advisor.
+- Rootline is a guide, not a lawyer, tax professional or financial advisor.
+- Claude can still make mistakes, even with sources. Every answer links to its source so you can check it.
 - Sources were checked on October 24, 2026. Rules change, so check the links before relying on them.
 - Some card companies don't report authorized users under 18. Rootline tells families to ask their card company.
 - Rootline is not affiliated with or endorsed by FNB or any bank.

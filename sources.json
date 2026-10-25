@@ -308,19 +308,20 @@
     {
       "id": "S17",
       "topic": "F-1 work rules",
-      "title": "Working in the United States",
+      "title": "Working in the United States; Learn about the types of practical training for F-1 students",
       "publisher": "Study in the States (U.S. Department of Homeland Security)",
       "official": true,
       "url": "https://studyinthestates.dhs.gov/students/working",
       "facts": [
         "F-1 students who work on campus may not work more than 20 hours per week while school is in session.",
-        "Off-campus work for F-1 students requires a completed academic year and an economic hardship, plus approval from the school official and a Form I-765 filed with USCIS.",
-        "F-1 students can't begin off-campus work while the Form I-765 is pending with USCIS."
+        "Off-campus work based on economic hardship requires a completed academic year, approval from the school official and a Form I-765 filed with USCIS, and the student can't start while the form is pending.",
+        "F-1 students may also do practical training that directly relates to their program of study: Curricular Practical Training (CPT) before the program ends, and Optional Practical Training (OPT), which usually lasts up to 12 months."
       ],
       "use_for": [
         "timeline",
         "qa"
-      ]
+      ],
+      "secondary_url": "https://studyinthestates.dhs.gov/2021/05/learn-about-the-types-of-practical-training-for-f-1-students"
     },
     {
       "id": "S18",
